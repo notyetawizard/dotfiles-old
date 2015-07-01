@@ -1,0 +1,3 @@
+#! /bin/bash
+
+mpg123 -q /home/notyetawizard/audio/legend_of_zelda/Skyward\ Sword/22\ Get\ Key\ Item.mp3 2> /dev/null &
