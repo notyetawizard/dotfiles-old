@@ -1,8 +1,7 @@
 URxvt*.depth: 32
 
 URxvt*.scrollBar: false
-URxvt*.font: xft: FiraMono:size=10
-dzen2*.font: FiraMono: size=10
-URxvt*.letterSpace: -1
+URxvt*.font: xft: Fira Mono:size=10
+URxvt*.letterSpace: 0.8
 URxvt*.secondaryScreen: 1
 URxvt*.secondaryScroll: 0

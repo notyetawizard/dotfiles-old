@@ -6,8 +6,8 @@
   core:
     autoHideMenuBar: true
     themes: [
-      "atom-dark-ui"
-      "monokai"
+      "atom-solarized-dark-ui"
+      "solarized-dark-syntax"
     ]
     disabledPackages: [
       "command-palette"
@@ -29,14 +29,13 @@
   editor:
     invisibles: {}
     tabLength: 4
-    fontFamily: "Fira Mono"
     fontSize: 14
     softWrap: true
     softWrapAtPreferredLineLength: true
     scrollPastEnd: true
     showIndentGuide: true
     zoomFontWhenCtrlScrolling: false
-    preferredLineLength: 90
+    fontFamily: "Hack"
   "block-cursor":
     primaryColor:
       red: 24
@@ -59,6 +58,8 @@
     displayMinimapOnLeft: true
   "tree-view": {}
   "git-diff": {}
+  whitespace:
+    removeTrailingWhitespace: false
 ".lua.source":
   editor:
     preferredLineLength: 90

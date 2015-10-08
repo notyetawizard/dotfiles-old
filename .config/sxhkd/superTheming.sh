@@ -2,7 +2,7 @@
 
 TYPE="$1"
 
-cat .XresourcesBase ".Xresources$TYPE" > .Xresources
+cat .XresourcesBase ".Xresources${TYPE}Solarized" > .Xresources
 xrdb .Xresources
 
 cat .config/dunst/dunstrcBase ".config/dunst/dunstrc$TYPE" > .config/dunst/dunstrc
