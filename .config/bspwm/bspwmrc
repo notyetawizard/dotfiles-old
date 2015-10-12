@@ -9,4 +9,3 @@ bspc rule -a Chromium desktop=^3
 bspc rule -a Steam desktop=^4
 bspc rule -a Feh floating=on
 bspc rule -a Atom desktop=^1
-bspc rule -a Allegro desktop=^2

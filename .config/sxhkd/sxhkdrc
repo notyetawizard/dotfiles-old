@@ -22,11 +22,11 @@ super + {c,r}
 
 #Switch focus between float and tiled
 super + Tab
-	/home/notyetawizard/.config/sxhkd/superTab.sh
+	/home/owl/.config/sxhkd/superTab.sh
 
 #Focus, swap, or preselect with HTNS
 super + {h,t,n,s}
-	/home/notyetawizard/.config/sxhkd/superHTNSfloating.sh {h,t,n,s}
+	~/.config/sxhkd/superHTNSfloating.sh {h,t,n,s}
 
 #TODO: Add control to move floating window with Ctrl HTNS
 super + {shift + ,ctrl +}{h,t,n,s}
@@ -78,8 +78,8 @@ super + backslash
 	bspc rule -a urxvt -o floating=on & \
 	urxvt
 
-super + o ; {w,s,a}
-	{chromium, steam, atom}
+super + o ; {w,a}
+	{chromium, atom}
 
 #lockscreen
 super + BackSpace
@@ -122,13 +122,13 @@ shift + XF86MonBrightness{Down,Up}
 
 #Change to Dark or Light Solarized themes for .Xresources, notifications
 super + XF86MonBrightness{Down,Up}
-	/home/notyetawizard/.config/sxhkd/superTheming.sh {Dark,Light}
+	~/.config/sxhkd/superTheming.sh {Dark,Light}
 
 XF86Display
-	feh --randomize --bg-fill /home/notyetawizard/visual/wallpaper/no-mans-sky/*
+	feh --randomize --bg-fill ~/visual/wallpaper/no-mans-sky/*
 
 shift + XF86Display
-	feh --bg-fill /home/notyetawizard/visual/wallpaper/no-mans-sky/NewEridu.png
+	feh --bg-fill ~/visual/wallpaper/no-mans-sky/NewEridu.png
 
 #XF86WLAN seems to softblock wlan at BIOS level,
 #But no options are available for it. Boo.
@@ -150,14 +150,7 @@ XF86Tools; p
 	notify-send Ping "\n`ping -c1 8.8.8.8`"
 
 XF86Tools; n
-	notify-send "Notes" "\n`cat /home/notyetawizard/notes`"
-
-XF86Tools; j
-	sudo netctl start Jupiter & /
-	notify-send Wifi "Connected with profile <b>Jupiter</b>.
-
-XF86Tools; w
-	notify-send WiFi "Currently connected with profile <b>`netctl list | grep \* | cut -c3-`</b>"
+	notify-send "Notes" "\n`cat ~/notes`"
 
 XF86Tools; u
 	notify-send Updates "\n`pacman -Qqu`"

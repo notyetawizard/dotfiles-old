@@ -6,7 +6,7 @@
   core:
     autoHideMenuBar: true
     themes: [
-      "atom-solarized-dark-ui"
+      "one-dark-ui"
       "solarized-dark-syntax"
     ]
     disabledPackages: [
@@ -29,13 +29,13 @@
   editor:
     invisibles: {}
     tabLength: 4
-    fontSize: 14
     softWrap: true
     softWrapAtPreferredLineLength: true
     scrollPastEnd: true
     showIndentGuide: true
     zoomFontWhenCtrlScrolling: false
     fontFamily: "Hack"
+    fontSize: 13
   "block-cursor":
     primaryColor:
       red: 24
