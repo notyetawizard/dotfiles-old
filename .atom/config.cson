@@ -34,8 +34,8 @@
     scrollPastEnd: true
     showIndentGuide: true
     zoomFontWhenCtrlScrolling: false
-    fontFamily: "Hack"
     fontSize: 13
+    fontFamily: "Hack"
   "block-cursor":
     primaryColor:
       red: 24
@@ -48,6 +48,11 @@
       blue: 119
       alpha: 1
     blinkInterval: 0
+    global:
+      blinkOff:
+        borderWidth: 0
+      blinkOn:
+        borderWidth: 0
   "love-launcher":
     lovepath: "love"
   "highlight-line":
@@ -62,6 +67,12 @@
     removeTrailingWhitespace: false
   "one-dark-ui":
     layoutMode: "Compact"
+  "autocomplete-plus":
+    fileBlacklist: [
+      "*.md"
+    ]
+  "character-table":
+    mnemonicAllowReversed: false
 ".lua.source":
   editor:
     preferredLineLength: 90
