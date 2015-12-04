@@ -1,0 +1,4 @@
+#! /bin/bash
+
+cd /home/games/steam/steamapps/common/Starbound\ Unstable/linux64/
+./starbound
