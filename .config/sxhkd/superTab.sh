@@ -1,4 +1,3 @@
-
 #! /bin/bash
 
 if [ -z `bspc query -W -w focused.tiled` ]; then
