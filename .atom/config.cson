@@ -61,7 +61,8 @@
     enableBackgroundColor: false
   minimap:
     displayMinimapOnLeft: true
-  "tree-view": {}
+  "tree-view":
+    hideVcsIgnoredFiles: true
   "git-diff": {}
   whitespace:
     removeTrailingWhitespace: false
