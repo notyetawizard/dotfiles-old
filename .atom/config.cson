@@ -61,8 +61,7 @@
     enableBackgroundColor: false
   minimap:
     displayMinimapOnLeft: true
-  "tree-view":
-    hideVcsIgnoredFiles: true
+  "tree-view": {}
   "git-diff": {}
   whitespace:
     removeTrailingWhitespace: false
@@ -74,6 +73,7 @@
     ]
   "character-table":
     mnemonicAllowReversed: false
+  "spell-check": {}
 ".lua.source":
   editor:
     preferredLineLength: 90

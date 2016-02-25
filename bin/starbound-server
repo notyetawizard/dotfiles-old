@@ -1,4 +1,4 @@
 #! /bin/bash
 
 cd /home/games/steam/steamapps/common/Starbound/linux64/
-./starbound-server
+./starbound_server
