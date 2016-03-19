@@ -1,7 +1,7 @@
 #! /bin/bash
 
 if [ -z `bspc query -W -w focused.tiled` ]; then
-    bspc window -f next.tiled
+    bspc node -f next.tiled
 else
-    bspc window -f next.floating
+    bspc node -f next.floating
 fi
